@@ -1,1 +1,0 @@
-df = pd.read_csv("Hosp_Data_Sample.csv")
