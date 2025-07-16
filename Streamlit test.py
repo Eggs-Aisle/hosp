@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("Hosp Data - WC4.csv")
+df = pd.read_csv("Hosp_Data_Sample.csv")
 
 df = df.drop(columns=[col for col in df.columns if col.lower() == 'booking_id'], errors='ignore')
 
